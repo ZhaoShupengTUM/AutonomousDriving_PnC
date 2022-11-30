@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/**",
+                "/opt/ros/foxy/include/**",
+                "/opt/ros/foxy/include/rclcpp/**",
+                "${workspaceFolder}/src/ros-bridge/carla_msgs/**",
+                "${workspaceFolder}/src/ros-bridge/carla_shenlan_project_1/carla_shenlan_pid_controller/include/carla_shenlan_pid_controller",
+                "${workspaceFolder}/src/ros-bridge/carla_shenlan_project_1/carla_shenlan_pid_controller/include/carla_shenlan_pid_controller/**"
+                // "${workspaceFolder}/src/ros-bridge/mpc_trajectory_tracking/mpc_trajectory_tracking_dynamics_lateral/include/**",
+                // "${workspaceFolder}/src/ros-bridge/mpc_trajectory_tracking/mpc_trajectory_tracking_dynamics_longitudinal/include/**",
+                // "${workspaceFolder}/src/ros-bridge/mpc_trajectory_tracking/mpc_trajectory_tracking_kinematic_coupled/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "go2sh.cmake-integration"
+        }
+    ],
+    "version": 4
+}
